@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandTwitter } from "@tabler/icons-react";
 import { FC } from "react";
 
 export const Footer: FC = () => {
@@ -10,7 +10,7 @@ export const Footer: FC = () => {
         Created by
         <a
           className="hover:opacity-50 mx-1"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/itsWanlio"
           target="_blank"
           rel="noreferrer"
         >
@@ -19,7 +19,7 @@ export const Footer: FC = () => {
         based on the essays of
         <a
           className="hover:opacity-50 ml-1"
-          href="https://twitter.com/paulg"
+          href="https://twitter.com/itsWanlio"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,20 +31,11 @@ export const Footer: FC = () => {
       <div className="flex space-x-4">
         <a
           className="flex items-center hover:opacity-50"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/itsWanlio"
           target="_blank"
           rel="noreferrer"
         >
           <IconBrandTwitter size={24} />
-        </a>
-
-        <a
-          className="flex items-center hover:opacity-50"
-          href="https://github.com/mckaywrigley/paul-graham-gpt"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandGithub size={24} />
         </a>
       </div>
     </div>
