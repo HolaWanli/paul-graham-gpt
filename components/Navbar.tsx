@@ -7,7 +7,7 @@ export const Navbar: FC = () => {
       <div className="font-bold text-2xl flex items-center">
         <a
           className="hover:opacity-50"
-          href="https://apk-wyw-afgmyw3tc-holawanli.vercel.app/"
+          href="https://apk-wyw-gpt-git-main-holawanli.vercel.app/"
         >
           Your Own GPT
         </a>
